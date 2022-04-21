@@ -55,7 +55,7 @@ form button {
     border-radius: 15px;
 }
 
-form button:active{
+form button:active {
     transform: translateY(2px);
 }
 

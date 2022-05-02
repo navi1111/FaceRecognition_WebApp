@@ -1,0 +1,9 @@
+@font-face {
+    font-family: Header_Font;
+    src: url(../CSS-Files/Font-Files/HeaderFont.otf);
+}
+
+@font-face {
+    font-family: Section_Font;
+    src: url(../CSS-Files/Font-Files/SpaceGrotesk-Regular.otf);
+}

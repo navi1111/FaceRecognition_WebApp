@@ -1,13 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import './Style/MainStyle.css';
+import LogInHeader from './Pages/LogIn/Header/Header';
+import LogInMain from './Pages/LogIn/Main/Main';
+import RegisterHeader from './Pages/Register/Header/Header';
+import RegisterMain from './Pages/Register/Main/Main';
+import './Style/Fonts/Fonts.css';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <RegisterHeader/>
+    <RegisterMain/>
   </React.StrictMode>
 );
 

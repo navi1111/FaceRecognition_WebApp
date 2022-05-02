@@ -1,0 +1,70 @@
+body {
+    background-image: url(./Images/background.png);
+    background-size: cover;
+  }
+  
+  .headerText {
+    font-size: 75px;
+    text-align: center;
+    font-family: Header_Font;
+    animation: blinkingText 5s infinite;
+    margin-bottom: 5%;
+    margin-top: 2.5%;
+  }
+  
+  @keyframes blinkingText {
+    0% {
+        color: white;
+    }
+  
+    50% {
+        color: black;
+    }
+  
+    100% {
+        color: white;
+    }
+  }
+  
+  form {
+    background-color: white;
+    border-radius: 25px;
+    padding-bottom: 2.5%;
+    opacity: 0.8;
+  }
+  
+  form label {
+    font-size: large;
+    font-family: Section_Font;
+  }
+  
+  form input[type=text],
+  input[type=password],
+  input[type=email] {
+    font-size: large;
+    font-family: Section_Font;
+    border-radius: 15px;
+    border: 2px solid black;
+  }
+  
+  form button {
+    background-color: white;
+    opacity: 0.8;
+    font-size: large;
+    font-family: Section_Font;
+    cursor: pointer;
+    border-radius: 15px;
+  }
+  
+  form button:active {
+    transform: translateY(2px);
+  }
+  
+  button:hover {
+    font-weight: 900;
+  }
+  
+  form p {
+    font-size: large;
+    font-family: Section_Font;
+  }

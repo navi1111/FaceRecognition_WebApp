@@ -1,13 +1,70 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-image: url(./Style/Images/background.png);
+  background-size: cover;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.headerText {
+  font-size: 75px;
+  text-align: center;
+  font-family: Header_Font;
+  animation: blinkingText 5s infinite;
 }
+
+@keyframes blinkingText {
+  0% {
+      color: white;
+  }
+
+  50% {
+      color: black;
+  }
+
+  100% {
+      color: white;
+  }
+}
+
+form {
+  background-color: white;
+  border-radius: 25px;
+  padding-bottom: 2.5%;
+  opacity: 0.8;
+}
+
+form label {
+  font-size: large;
+  font-family: Section_Font;
+}
+
+form input[type=text],
+input[type=password],
+input[type=email] {
+  font-size: large;
+  font-family: Section_Font;
+  border-radius: 15px;
+  border: 2px solid black;
+}
+
+form button {
+  background-color: white;
+  opacity: 0.8;
+  font-size: large;
+  font-family: Section_Font;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+form button:active {
+  transform: translateY(2px);
+}
+
+button:hover {
+  font-weight: 900;
+}
+
+form p {
+  font-size: large;
+  font-family: Section_Font;
+}
+
+

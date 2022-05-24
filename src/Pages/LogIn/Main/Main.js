@@ -1,5 +1,6 @@
 import React from "react";
 import './Main.css';
+import App from '../../../App';
 
 class Main extends React.Component {
     render() {
@@ -10,7 +11,7 @@ class Main extends React.Component {
                 <label>PASSWORD</label>
                 <input type="password" placeholder="Enter Password" name="password" required></input>
                 <button type="submit">LOGIN</button>
-                <p>Not registered? <a href="#">Click Here</a></p>
+                <p>Not registered? Click Here</p>
             </form>
 
         );
